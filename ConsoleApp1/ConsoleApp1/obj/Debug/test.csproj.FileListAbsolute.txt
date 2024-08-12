@@ -1,0 +1,7 @@
+C:\Users\simon\Downloads\HTX\Studieretning\Programmering\Programmering3.G\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\simon\Downloads\HTX\Studieretning\Programmering\Programmering3.G\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\simon\Downloads\HTX\Studieretning\Programmering\Programmering3.G\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\simon\Downloads\HTX\Studieretning\Programmering\Programmering3.G\ConsoleApp1\ConsoleApp1\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\simon\Downloads\HTX\Studieretning\Programmering\Programmering3.G\ConsoleApp1\ConsoleApp1\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\simon\Downloads\HTX\Studieretning\Programmering\Programmering3.G\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\simon\Downloads\HTX\Studieretning\Programmering\Programmering3.G\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
