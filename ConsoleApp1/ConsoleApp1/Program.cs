@@ -8,6 +8,11 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello Wold!");
             Console.WriteLine("John is svindlowich");
+            Program program = new Program();
+            {
+                program = new Program();
+
+            }
         }
     }
 }
