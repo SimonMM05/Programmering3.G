@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Threading;
 class Program
 {
     static void Main(string[] args)
@@ -9,19 +8,27 @@ class Program
         {
             if (i == 0) return 0;
             if (i == 1) return 1;
-            if (i == 2) return 1;
             return Fibonacci(i - 1) + Fibonacci(i - 2);
-            // return 0; dummy
-
         }
+
+        // Set the number of Fibonacci terms to calculate
+        int n = 44; // You can change this value to calculate more or fewer terms
+
         Stopwatch stopWatch = new Stopwatch();
         stopWatch.Start();
-        Thread.Sleep(10000);
+
+        // Calculate and print the Fibonacci sequence
+        for (int i = 0; i <= n; i++)
+        {
+            Console.WriteLine($"Fibonacci({i}) = {Fibonacci(i)}");
+        }
+
         stopWatch.Stop();
-        // Get the elapsed time as a TimeSpan value.
+
+        // Get the elapsed time as a TimeSpan value
         TimeSpan ts = stopWatch.Elapsed;
 
-        // Format and display the TimeSpan value.
+        // Format and display the TimeSpan value
         string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
             ts.Hours, ts.Minutes, ts.Seconds,
             ts.Milliseconds / 10);
